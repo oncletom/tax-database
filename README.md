@@ -42,3 +42,24 @@ Each section has three properties:
 - **`country`** – The country inside which the buyer is located.
 - **`tax`** – The name of the tax that should be used. This is the exact same string as the tax definition inside the `country.json`.
 - **`requirement`** – Requirements that have to be fulfilled that this tax is applicable.
+
+When we combine the requirements and the country definition from above, a sample record for invoices from germany to germany would look like this:
+
+	{
+		"business-to-client": [
+			{
+				"country": [ "de" ],
+				"tax": "normal",
+				"requirement": []
+			}
+		],
+		"business-to-business": [
+			{
+				"country": [ "de" ],
+				"tax": null,
+				"requirement": [
+					"vat-number"
+				]
+			}
+		]
+	}
