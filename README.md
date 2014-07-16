@@ -32,7 +32,7 @@ If this format is stupid, you have a better one, or there is already an existing
 ## Format
 ### Countries
 Each country is defined only once inside the `countries.json` file. Inside it there is human readable name and all the different taxes for that particular country.
-The names for the taxes can be any string. The are only used inside the tax definition files.
+The names for the taxes can be any string. They are only used inside the tax definition files.
 
 A sample country record looks like this (as found in `countries.json`):
 
@@ -57,7 +57,7 @@ Sample requirements record (as found in `requirements.json`):
 	}
 
 ### Tax definition
-Tax definitions are based on categories. Not sure how to use them right now. I for myself are only interested into the software business. Others might be added later.
+Tax definitions are based on categories. Not sure how to use them right now. I am only interested into the software business, that's why there is only a folder `software`. Others, like `books`, `ebooks`, `flowers` might be added later.
 Each category has its own directory. Inside this directory there is a file for each country. The country file represents the location where the company, that will send an invoice, is located. If your company is registered in germany you would have to look into `de.json`.
 
 The file is separated into two categories:
