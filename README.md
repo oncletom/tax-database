@@ -6,6 +6,21 @@ The idea is to build a machine readable database with all applicable taxes, base
 - Right now every system that is able to create invoices has to manage their own dataset of countries, taxes and which one to choose for which country. When your bicicle web-shop starts shipping to the UK, you'll add it manually. Once the legal obligations change, everyone has to change it manually.
 - We, especially the software business, live in a global market. When I want to sell my imaginary software to mexico I have to research all tax details by myself. Why don't we collaborate on this together?
 
+## Usage
+When there is all this data, how should it be used? Actually I don't care. You can do whatever you want with it. I for myself might create some open source project which would let you do something like this:
+
+	// first parameter is the directory of this repository
+	// second parameter is the country my company is registered in
+	$taxDatabase = new TaxDatabase( '/some/directory/with/this/repository', 'de' );
+
+	// now I have a visitor from the UK and I want to display the correct price, including tax:
+	$tax = $taxDatabase->taxForCustomerFromCountry( 'uk', 'software' );
+	
+	// next I have a registered company from the netherlands that wants to buy my product
+	$tax = $taxDatabase->taxForBusinessFromCountry( 'nl', 'software' );
+
+This library is not part of this project, and will never be. This data is not bound to any language, library or framework. Everything that can parse JSON data can use it. [Open Data](http://en.wikipedia.org/wiki/Open_data) is about »the idea that certain data should be freely available to everyone to use and republish as they wish«. This is what these JSON files might be about – one day.
+
 ## Disclaimer
 This data is not correct right now. It is your responsibility to check it according to your law. This repository is only a proof of concept and some groundwork to agree on some common format. 
 
