@@ -61,6 +61,7 @@
 	"fr": {
 		"name": "France",
 		"taxes": {
+			"none": 0,
 			"lala": 2.1,
 			"reduced": 5.5,
 			"reduced-1": 10,
