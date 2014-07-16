@@ -1,0 +1,222 @@
+{
+	"be": {
+		"name": "Belgium",
+		"taxes": {
+			"reduced": 6,
+			"reduced-1": 12,
+			"normal": 21,
+			"between": 12
+		}
+	},
+	"bg": {
+		"name": "Bulgaria",
+		"taxes": {
+			"reduced": 9,
+			"normal": 20
+		}
+	},
+	"cz": {
+		"name": "Czech Republic",
+		"taxes": {
+			"reduced": 15,
+			"normal": 21
+		}
+	},
+	"dk": {
+		"name": "Denmark",
+		"taxes": {
+			"normal": 25
+		}
+	},
+	"de": {
+		"name": "Germany",
+		"taxes": {
+			"reduced": 7,
+			"normal": 19
+		}
+	},
+	"ee": {
+		"name": "Estonia",
+		"taxes": {
+			"reduced": 9,
+			"normal": 20
+		}
+	},
+	"el": {
+		"name": "Greece",
+		"taxes": {
+			"reduced": 6.5,
+			"reduced-1": 13,
+			"normal": 23
+		}
+	},
+	"es": {
+		"name": "Spain",
+		"taxes": {
+			"lala": 4,
+			"reduced": 10,
+			"normal": 21
+		}
+	},
+	"fr": {
+		"name": "France",
+		"taxes": {
+			"lala": 2.1,
+			"reduced": 5.5,
+			"reduced-1": 10,
+			"normal": 20
+		}
+	},
+	"hr": {
+		"name": "Croatia",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 13,
+			"normal": 25
+		}
+	},
+	"ie": {
+		"name": "Ireland",
+		"taxes": {
+			"lala": 4.8,
+			"reduced": 9,
+			"reduced-1": 13.5,
+			"normal": 23,
+			"between": 13.5
+		}
+	},
+	"it": {
+		"name": "Italy",
+		"taxes": {
+			"lala": 4,
+			"reduced": 10,
+			"normal": 22
+		}
+	},
+	"cy": {
+		"name": "Cyprus",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 9,
+			"normal": 19
+		}
+	},
+	"lv": {
+		"name": "Latvia",
+		"taxes": {
+			"reduced": 12,
+			"normal": 21
+		}
+	},
+	"lt": {
+		"name": "Lithuania",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 9,
+			"normal": 21
+		}
+	},
+	"lu": {
+		"name": "Luxembourg",
+		"taxes": {
+			"lala": 3,
+			"reduced": 6,
+			"reduced-1": 12,
+			"normal": 15,
+			"between": 12
+		}
+	},
+	"hu": {
+		"name": "Hungary",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 18,
+			"normal": 27
+		}
+	},
+	"mt": {
+		"name": "Malta",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 7,
+			"normal": 18
+		}
+	},
+	"nl": {
+		"name": "Netherlands",
+		"taxes": {
+			"reduced": 6,
+			"normal": 21
+		}
+	},
+	"at": {
+		"name": "O\u0308sterreich",
+		"taxes": {
+			"reduced": 10,
+			"normal": 20,
+			"between": 12
+		}
+	},
+	"pl": {
+		"name": "Poland",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 8,
+			"normal": 23
+		}
+	},
+	"pt": {
+		"name": "Portugal",
+		"taxes": {
+			"reduced": 6,
+			"reduced-1": 13,
+			"normal": 23,
+			"between": 13
+		}
+	},
+	"ro": {
+		"name": "Ruma\u0308nien",
+		"taxes": {
+			"reduced": 5,
+			"reduced-1": 9,
+			"normal": 24
+		}
+	},
+	"si": {
+		"name": "Slovenia",
+		"taxes": {
+			"reduced": 9.5,
+			"normal": 22
+		}
+	},
+	"sk": {
+		"name": "Slovak Republic",
+		"taxes": {
+			"reduced": 10,
+			"normal": 20
+		}
+	},
+	"fi": {
+		"name": "Finland",
+		"taxes": {
+			"reduced": 10,
+			"reduced-1": 14,
+			"normal": 24
+		}
+	},
+	"se": {
+		"name": "Sweden",
+		"taxes": {
+			"reduced": 6,
+			"reduced-1": 12,
+			"normal": 25
+		}
+	},
+	"uk": {
+		"name": "Vereinigtes Ko\u0308nigreich",
+		"taxes": {
+			"reduced": 5,
+			"normal": 20
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"business-to-client": [
+		{
+			"country": [
+				"be",
+				"bg",
+				"cz",
+				"dk",
+				"de",
+				"ee",
+				"el",
+				"es",
+				"fr",
+				"hr",
+				"ie",
+				"it",
+				"cy",
+				"lv",
+				"lt",
+				"lu",
+				"hu",
+				"mt",
+				"nl",
+				"at",
+				"pl",
+				"pt",
+				"ro",
+				"si",
+				"sk",
+				"fi",
+				"se",
+				"uk"
+			],
+			"tax": "normal",
+			"requirement": []
+		}
+	],
+	"business-to-business": [
+		{
+			"country": [
+				"be",
+				"bg",
+				"cz",
+				"dk",
+				"de",
+				"ee",
+				"el",
+				"es",
+				"fr",
+				"hr",
+				"ie",
+				"it",
+				"cy",
+				"lv",
+				"lt",
+				"lu",
+				"hu",
+				"mt",
+				"nl",
+				"at",
+				"pl",
+				"pt",
+				"ro",
+				"si",
+				"sk",
+				"fi",
+				"se",
+				"uk"
+			],
+			"tax": null,
+			"requirement": [
+				"vat-number"
+			]
+		}
+	]
+}

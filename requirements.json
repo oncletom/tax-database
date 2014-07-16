@@ -1,0 +1,6 @@
+{
+	"vat-number": {
+		"description": "A value added tax identification number is required on invoices.",
+		"more": "http://en.wikipedia.org/wiki/VAT_identification_number"
+	}
+}
