@@ -11,6 +11,9 @@ This data is not correct right now. It is your responsibility to check it accord
 
 If this format is stupid, you have a better one, or there is already an existing one, I would be glad to use that instead. I don't want to run this project, but someone has to start something. 
 
+## Contribute
+**Yes, please** do. Just [create a new issue](https://github.com/tobiastom/tax-database/issues/new) to start a discussion. About whatever you like. It would be awesome if it is somehow related to this project. **Thank you**.
+
 ## Format
 ### Countries
 Each country is defined only once inside the `countries.json` file. Inside it there is human readable name and all the different taxes for that particular country.
